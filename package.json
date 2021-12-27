@@ -8,6 +8,7 @@
   "scripts": {
     "test": "NODE_ENV=test sequelize-cli db:migrate && jest test -i tests/user.test.js --watch",
     "run:dev": "NODE_ENV=development sequelize-cli db:migrate && node server.js",
+    "dev": "node server.js",
     "lint": "eslint ./"
   },
   "dependencies": {
